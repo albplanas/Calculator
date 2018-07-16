@@ -1,1 +1,89 @@
-t
+
+   
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.4.0/marked.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Margarine|Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title >Calculator</title>
+    </head>
+<body>
+    <div class="Calculator-box shadow-cal" >
+            <div class="Box shadow-box" >
+                    <div class="Box-top " >
+                        <div class="row">
+                                <p class="col-sm-5 casio">CASIO</p>
+                                <div class="col-sm-5   solar-cell " ></div>
+                                <div class="col-sm-5   solar-cell " ></div>
+                                <div class="col-sm-5   solar-cell " ></div>
+                                <div class="col-sm-5   solar-cell " ></div>
+                               
+                        </div>
+                            
+                            <div class="Box-board " >
+                                    <div id="display"class="board " > </div>
+                            </div>
+             </div>
+
+            <div class="divisor " ></div>
+            <div id="keyboard" class="container-fluid">
+                    <div class="row general" id="row-0">
+                            <div class="col-md-4" ><button id="ON" type="button" class="btn btn-danger on btn-key">ON</button></div>
+                            <div class="col-sm-2" ><button id="A"  type="button" class="btn  btn-primary btn-key">A</button></div>
+                            <div class="col-sm-2" ><button id="C"  type="button" class="btn  btn-primary btn-key">C</button></div>
+                            <div class="col-sm-2" ><button id="cocient"  type="button" class="btn  btn-primary btn-key ">÷</button></div>
+                    </div>
+                    <div class="row" id="row-1">
+                            <div class="col-sm-2" ><button id="rad"  type="button" class="btn  btn-primary btn-key">√</button></div>
+                            <div class="col-sm-2" ><button id="7"  type="button" class="btn  btn-info btn-key">7</button></div>
+                            <div class="col-sm-2" ><button id="8"  type="button" class="btn  btn-info btn-key">8</button></div>
+                            <div class="col-sm-2" ><button id="9"  type="button" class="btn  btn-info btn-key">9</button></div>
+                            <div class="col-sm-2" ><button id="product"  type="button" class="btn  btn-primary btn-key">x</button></div>
+                    </div>
+                    <div class="row" id="row-2">
+                            <div class="col-sm-2" ><button id="percentage"  type="button" class="btn  btn-primary btn-key">%</button></div>
+                            <div class="col-sm-2" ><button id="4"type="button" class="btn  btn-info btn-key">4</button></div>
+                            <div class="col-sm-2" ><button id="5"type="button" class="btn  btn-info btn-key">5</button></div>
+                            <div class="col-sm-2" ><button id="6"type="button" class="btn  btn-info btn-key">6</button></div>
+                            <div class="col-sm-2" ><button id="menos"type="button" class="btn  btn-primary btn-key">-</button></div>
+                    </div>
+                    <div class="row" id="row-2">
+                            <div class="col-sm-2" >
+                                <button id="p"type="button" class="btn  btn-info btn-key">.</button>
+                                <button id="0"type="button" class="btn  btn-info btn-key">0</button>
+                            </div>
+                            <div class="col-sm-2" >
+                                    <div class="row" id="row-3">
+                                            <div class="col-sm-2" ><button id="1"type="button" class="btn  btn-info btn-key">1</button></div>
+                                             <div class="col-sm-2" ><button id="00"type="button" class="btn  btn-info on btn-key">00</button></div>
+                                    </div>
+                                    
+                            </div>
+                            
+                            <div class="col-sm-2" ><button id="2"type="button" class="btn  btn-info btn-key">2</button></div>
+                            <div class="col-sm-2" >
+                                    <button id="3"type="button" class="btn  btn-info btn-key">3</button>
+                                    <button id="iqual"type="button" class="btn  btn-primary btn-key">=</button>
+                                </div>
+                            <div class="col-sm-2" ><button id="mas"type="button" class="btn  btn-primary iqual btn-key">+</button></div>
+                    </div>
+                            
+                </div>
+                   
+            </div>
+        </div>
+        <script src="app.js"></script>   
+            
+</body>
+</html>

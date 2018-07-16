@@ -1,1 +1,120 @@
-t
+
+      body{
+        text-align:  center;
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK89BxvjI5X4Y7WDyDToBf7mPHOCI3lfCYjz5IKzCWzgpWkM3-");
+
+               background-size: cover;
+               height: 100%;
+     }
+    .Box{
+        font-family:Orbitron; 
+        width: 320px;
+        height: 500px;
+        border-radius: 5px;
+        margin-left:20px;
+        margin-top:1%; 
+        background: silver;
+    }
+    .Calculator-box{
+       font-family:Orbitron; 
+        width: 360px;
+        height: 520px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 10%;
+        background:  #193753;
+    }
+    .Box-top{
+       font-family:Orbitron; 
+        width: 320px;
+        height: 150px;
+        background: #193753;
+        padding-top: 10px;
+        
+    }
+    
+    .solar-cell{
+     
+        width: 20px;
+        height: 25px;
+        background: #114125bb;
+       border-color: black;
+       border: 1px solid;
+    }
+
+   .casio{
+        color:white;
+        font-size: 18px;
+        font: bolder;
+        text-align: left;
+        margin-right: 50px;
+    }
+
+    .Box-board{
+       font-family:Orbitron; 
+        width: 320px;
+        height: 90px;
+        padding-top: 10px;
+        background: rgba(192, 192, 192, 0.925);
+    }
+    .board{
+        overflow: hidden;
+       font-family:Orbitron; 
+        width: 260px;
+        height: 70px;
+        margin-left: 30px;
+        background: rgba(76, 219, 148, 0.322);
+        border-radius: 12px;
+        border: 2px solid;
+        border-color: rgba(163, 162, 162, 0.986);
+        text-align: right;
+        color: black;
+        font-size: 25px;
+    }
+    .divisor{
+
+        width: 360px;
+        height: 5px;
+        margin-left: -20px;
+        background: rgb(52, 52, 53);
+    }
+    .shadow-box{  
+   box-shadow: 5px 10px 10px 5px #19375354;
+    }
+    .general{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .shadow-cal{  
+   border:1px solid;
+   box-shadow: 5px 10px 10px 5px #141414;
+    }
+    
+    .btn{
+        color: white;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        text-align: center !important ;
+        box-shadow: 1px 1px 1px 1px #999898;
+    }
+    .on{
+        width: 100px;
+        height: 50px;
+        margin-left:-5px; 
+       }
+       .iqual{
+        height: 110px;
+        width: 50px;
+        margin-left:-5px; 
+       }
+       .btn-key{
+           margin:5px; 
+           margin-left:10px; 
+       }
+       .btn-info{
+           background-color: rgba(63, 135, 218, 0.753);
+       }
+        
+
